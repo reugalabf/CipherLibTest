@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "CipherTestCases-Substitution",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cesarCipher",
+		"nullCipher"
+	],
+	"name" : "BasicShiftCipherTest",
+	"type" : "normal"
+}
