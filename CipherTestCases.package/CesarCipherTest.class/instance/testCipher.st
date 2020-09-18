@@ -1,3 +1,3 @@
 testing
 testCipher
-	self should: [ (cipher cipherMessage: 'WIKIPEDIA') = 'ZLNLSHGLD' ].
+	self should: [ (cipher cipher: 'WIKIPEDIA') = 'ZLNLSHGLD' ].

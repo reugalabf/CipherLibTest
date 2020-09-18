@@ -1,5 +1,5 @@
 as yet unclassified
 testCipherCharactersCesar
-	self should: [ (cesarCipher cipherMessage: 'X') = 'A' ].
-	self should: [ (cesarCipher cipherMessage: 'A') = 'D' ].
-	self should: [ (cesarCipher cipherMessage: 'W') = 'Z' ]
+	self should: [ (cesarCipher cipher: 'X') = 'A' ].
+	self should: [ (cesarCipher cipher: 'A') = 'D' ].
+	self should: [ (cesarCipher cipher: 'W') = 'Z' ]

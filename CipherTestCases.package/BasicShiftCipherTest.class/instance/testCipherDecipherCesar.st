@@ -1,3 +1,3 @@
 as yet unclassified
 testCipherDecipherCesar
-	self should: [ (cesarCipher decipherMessage: (cesarCipher cipherMessage: 'WIKIPEDIA')) = 'WIKIPEDIA' ]
+	self should: [ (cesarCipher decipher: (cesarCipher cipher: 'WIKIPEDIA')) = 'WIKIPEDIA' ]

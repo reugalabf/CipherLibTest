@@ -1,6 +1,6 @@
 tests
 testDecipherCesar
 	
-	self should: [ (cipher decipherMessage: 'A') = 'X' ].
-	self should: [ (cipher decipherMessage: 'D') = 'A' ].
-	self should: [ (cipher decipherMessage: 'Z') = 'W' ].
+	self should: [ (cipher decipher: 'A') = 'K' ].
+	self should: [ (cipher decipher: 'D') = 'N' ].
+	self should: [ (cipher decipher: 'Z') = 'J' ].
